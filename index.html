@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dab5e73c9e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/web-logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Hanna</span><br>Salam P from Malappuram</h1>
+            </div>
+        </div>
+    </div>
+    <!------------About ------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.webp">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p> I am a dedicated professional with a degree in Electronics and Communication Engineering,
+                        seeking
+                        a challenging role in a forward-thinking organization. My education has given me strong
+                        technical
+                        skills and a passion for tackling complex problems with innovative solutions. I am eager to join
+                        a
+                        company that values growth and development, where I can contribute to its success. My hands-on
+                        projects and internships have refined my problem-solving abilities and technical expertise. I am
+                        ready to apply my knowledge and skills to drive results and make a positive impact.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-conents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML&CSS</span><br>Designing web/app interfaces</li>
+                            <li><span>Java</span><br> Developing backend systems and applications</li>
+                            <li><span>Hibernate</span><br> Mapping data between Java objects and databases</li>
+                            <li><span>Spring Boot</span><br>Building scalable Java applications quickly</li>
+                            <li><span>MySQL</span><br> Designing and managing databases</li>
+                        </ul>
+                    </div>
+                    <div class="tab-conents" id="experience">
+                        <ul>
+                            <li><span>July/2023 - March/2024</span><br>KodNest Technology & Pvt <br>Full stack Java
+                                Developer Intern</li>
+                        </ul>
+                    </div>
+                    <div class="tab-conents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>B-Tech Electronics and Communication<br> from Government
+                                Engineering College Wayanad</li>
+                            <li><span>2017</span><br> 12th from EJHSS Edavanna</li>
+                            <li><span>2015</span><br> 10th from SOHSS Areekode</li>
+                        </ul>
+                    </div>
+                    <div class="tab-conents" id="certifications">
+                        <ul>
+                            <li><span>Java Full Stack Web Development</span><br>Comprehensive 9 month Training</li>
+                            <li><span>Java basics-Core</span><br>Java training complete course from Udemy</li>
+                            <li><span>Database design</span><br>Basics of Database design and development by Udemy</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------Services---------------------->
+    <div id="services">
+        <div class="container">
+            <h1 sub-title>My Services</h1>
+            <div class="services-list">
+                <div class="service-one">
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Web Development</h2>
+                    <p> create interactive and scalable web applications using Java for backend logic,
+                        MySQL for efficient data management, and HTML/CSS for a responsive and user-friendly interface.
+                    </p>
+                    <!---- <a href="#">Learn more</a>-->
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management</h2>
+                    <p> Design and manage databases using MySQL, a popular open-source database management system.</p>
+                    <!--<a href="#">Learn more</a>-->
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Content Creation</h2>
+                    <p> Write clear and concise content for web applications, including user manuals, tutorials, and
+                        documentation.</p>
+                    <!---- <a href="#">Learn more</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Projects-------------------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 sub-title>My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>Tune Hub</h3>
+                        <p> A music streaming application that allows users to discover and listen to
+                            new music,createplaylists, and share their favorite songs with others.</p>
+                        <a href="https://github.com/hannasalamp/TuneHub-App"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.avif">
+                    <div class="layer">
+                        <h3> Online Library App</h3>
+                        <p> A library management application that allows users to manage books, authors,
+                            and readers, and provides features such as book borrowing, returning, and renewing.</p>
+                        <a href="https://github.com/hannasalamp/Online-Library-App"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.avif">
+                    <div class="layer">
+                        <h3>Employee Management App</h3>
+                        <p> A web application that allows users to manage employee information, including
+                            employee details, salaries, and benefits, and provides features such as employee
+                            performance tracking and reporting.</p>
+                        <a href="https://github.com/hannasalamp/Employee-Management-Application"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/hannasalamp" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----------------Contact-------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>hannasalamp2233@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-7306586185</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/hannasalamp/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                    </div>
+                    <a href="images/HannaSalamP.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Contact me for development opportunities,with <i class="fa-solid fa-heart"></i> Hanna Salam P.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-conents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxX4a0QfUdZYR8DIQyiLalgzI6Zx0BoowWVmweFit2nD1pjRPTMTYnZnGBGNP5jAJd-/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
